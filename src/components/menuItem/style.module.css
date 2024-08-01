@@ -1,0 +1,49 @@
+.menuItem_children {
+  display: none;
+}
+.menuItem {
+  position: relative;
+}
+.menuItem_children.open {
+  display: block;
+}
+.menuItem a {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.menuItemWithChildren::after {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-top: 1.5px solid;
+  border-left: 1.5px solid;
+  transform: translateY(-50%) rotate(-228deg);
+  left: calc(100% + 9px);
+  top: 11px;
+  border-color: #999999;
+  cursor: pointer;
+  transition: 0.1s;
+}
+.menuItemWithChildren.open::after {
+  transform: translateY(-50%) rotate(-134deg);
+  top: 10px;
+  transition: 0.1s;
+}
+.menuItem a:focus {
+  color: #ffffff;
+}
+.menuItem a:focus::after {
+  border-color: #ffffff !important;
+}
+.menuItem_children {
+  display: none;
+  position: absolute;
+  min-width: 123px;
+  width: 100%;
+  top: 38px;
+  background: #333;
+  padding: 10px;
+  border-radius: 4px;
+}

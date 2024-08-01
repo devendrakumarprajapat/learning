@@ -1,0 +1,56 @@
+.header_topbar {
+  padding: 12px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.topbar_address {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15.6px;
+  text-align: left;
+  color: #666666;
+  gap: 8px;
+}
+.ht_ls {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15.6px;
+  text-align: left;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  color: #666666;
+}
+.header_searchbar {
+  padding: 24px 0;
+}
+.header_navbar {
+  background-color: #333;
+}
+.menubar a {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #999999;
+}
+.menubar {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.nav_callbox {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #ffffff;
+}
+.nav_callbox svg {
+  width: 28px;
+  height: 28px;
+  color: #ffffff;
+}

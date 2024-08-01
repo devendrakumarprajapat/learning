@@ -1,0 +1,14 @@
+.heading {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38.4px;
+}
+.left {
+  text-align: left;
+}
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}

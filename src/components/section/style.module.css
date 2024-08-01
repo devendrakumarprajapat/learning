@@ -1,0 +1,92 @@
+.gray {
+  background-color: #f8f9fc;
+}
+
+.white {
+  background-color: #fff;
+}
+
+.black {
+  background-color: #000;
+}
+.light_black {
+  background-color: #000;
+  opacity: 0.9;
+}
+
+.pt-50 {
+  padding-top: 50px;
+}
+.pt-60 {
+  padding-top: 60px;
+}
+.pb-50 {
+  padding-bottom: 50px;
+}
+.pb-30 {
+  padding-bottom: 30px;
+}
+.py-25 {
+  padding: 25px 0;
+}
+.bgImage {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.section {
+  position: relative;
+}
+.section::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: inherit;
+  /* z-index: -2; */
+}
+.before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: inherit;
+  /* z-index: -2; */
+}
+
+.op-10 {
+  opacity: 0.1;
+}
+.op-20 {
+  opacity: 0.2;
+}
+.op-30 {
+  opacity: 0.3;
+}
+.op-40 {
+  opacity: 0.4;
+}
+.op-50 {
+  opacity: 0.5;
+}
+.op-60 {
+  opacity: 0.6;
+}
+.op-70 {
+  opacity: 0.7;
+}
+.op-80 {
+  opacity: 0.8;
+}
+.op-90 {
+  opacity: 0.9;
+}
+.op-100 {
+  opacity: 1;
+}
