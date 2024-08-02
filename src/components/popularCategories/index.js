@@ -7,7 +7,7 @@ const PopularCategories = ({ item }) => {
   return (
     <>
       <div className={styles.ProductCategory}>
-        <Link to="/" className={styles.pc_link}>
+        <Link to={`/categories/${item}`} className={styles.pc_link}>
           <div className={`${styles.product_info}`}>
             <img src={fruitImg} alt="product image" />
           </div>
